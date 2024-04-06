@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"message": "Hello, World!"}
+    return {"message": "Git hubbb!"}
 
 app.include_router(usuariosRoutes)
 app.include_router(RolRoutes)
